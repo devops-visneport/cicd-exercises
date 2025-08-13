@@ -8,6 +8,6 @@ COPY . .
 
 RUN pnpm i
 
-#Devops 2 de sildim
+EXPOSE 3000
 
 CMD ["pnpm", "seller-portal:dev"]
