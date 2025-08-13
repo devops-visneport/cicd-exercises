@@ -5,7 +5,7 @@ RUN npm install -g pnpm
 WORKDIR /app
 
 COPY . .
-
+#Devops2 den ekleme yapıyorum,önceki branche geçme alıştırması
 RUN pnpm i
 
 EXPOSE 3000
